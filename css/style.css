@@ -1,0 +1,98 @@
+* {
+	margin: 0 auto;
+	font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+	transition: all .1s easy;
+}
+
+li {
+	list-style: none;
+	color: #fff;
+	height: 40px;
+}
+
+input[type="submit"] {
+	position: absolute;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #4a4f56;
+	height: 100px;
+}
+
+header h1 {
+	padding-top: 23px;
+}
+
+body {
+	background-color: #3b3f45;
+}
+
+ul {
+	max-width: 550px;
+	margin-top: 30px;
+}
+
+li span {
+	font-size: 12px;
+	color: #e3e3e3;
+}
+
+.text {
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+.header_h1, .header_p {
+	color: 	#eb7e7c;
+	text-align: center;
+	font-weight: bold;
+}
+
+li > input[type="checkbox"] {
+	width: 18px;
+	height: 18px;
+	margin: 12px 10px 0 10px;
+}
+
+li:nth-child(odd) {
+	background-color: #88839e;
+}
+
+li:nth-child(even) {
+	background-color: #7a7593;
+}
+
+input[type="submit"] {
+	width: 550px; 
+	height: 40px;
+	background-color: #4a4f56;
+	color: 	#eb7e7c;
+	margin: 0 auto;
+	position: relative;
+	border: none;
+	margin-top: 30px;
+	left: 50%;
+	transform: translateX(-46.5%);
+}
+
+li:hover  {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	box-sizing: content-box;
+	height: 36px;
+	transform: translateY(-2px);
+}
+
+li:active {
+	background-color: #ff4c4c;
+}
+
+input[type="checkbox"]:checked ~ span, input[type="checkbox"]:checked + label{
+	text-decoration: line-through;
+	color: #bdbdbd;
+}
+
+input[type="checkbox"] {
+	vertical-align: bottom;
+}
